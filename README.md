@@ -10,6 +10,7 @@ Everyone needs a to do list. Not quite, but it is a starting point to full stack
 How start with the project:
 ---------------------------
 **Quick Start**
+
 ``` git clone https://github.com/ClaudiaSSL/To-Do-List.git ```
 
 **backend**
@@ -17,18 +18,20 @@ How start with the project:
 ```
     > cd To-Do-List
     > python -m venv venv
-    >  source venv/bin/activate
+    > source venv/bin/activate
     > cd backend
     > pip install -r requirements.txt
     > flask run --port=5001 --debug
 ```
 
-
 **frontend**
 
-``` cd To-Do-List/frontend/Vuejs&Flask&DynamicTable ```
-``` npm install ```
-``` npm run dev ```
+``` 
+    > cd To-Do-List/frontend/Vuejs&Flask&DynamicTable
+    > npm install
+    > npm run dev
+
+```
 
 Now you can have access to your to do list through the url that frontend terminal gives you.
 
