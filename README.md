@@ -13,17 +13,15 @@ How start with the project:
 ``` git clone https://github.com/ClaudiaSSL/To-Do-List.git ```
 
 **backend**
-``` cd To-Do-List ```
 
-``` python -m venv venv ```
-
-``` source venv/bin/activate ```
-
-``` cd backend ```
-
-``` pip install -r requirements.txt ```
-
-``` flask run --port=5001 --debug ```
+```
+    > cd To-Do-List
+    > python -m venv venv
+    >  source venv/bin/activate
+    > cd backend
+    > pip install -r requirements.txt
+    > flask run --port=5001 --debug
+```
 
 
 **frontend**
